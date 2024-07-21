@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_motion_router_docs=self.webpackChunkreact_motion_router_docs||[]).push([[8263],{4832:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/react-motion-router-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
