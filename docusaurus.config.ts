@@ -3,7 +3,7 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
+  title: 'React Motion Router',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -58,9 +58,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'React Motion Router',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'React Motion Router Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -68,14 +68,14 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Docs',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
           type: 'docsVersionDropdown'
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/nxtexe/react-motion-router',
           label: 'GitHub',
           position: 'right',
         },
@@ -88,8 +88,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Getting Started',
+              to: '/docs/the-basics/getting-started',
             },
           ],
         },
@@ -97,34 +97,22 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
+              label: 'Blog',
+              href: '/blog',
+            }
+          ]
         },
         {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/nxtexe/react-motion-router',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()}. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
