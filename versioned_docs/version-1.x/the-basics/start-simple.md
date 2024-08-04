@@ -9,7 +9,7 @@ In React Motion Router screens are specified as components and passed to a route
 ## Creating a Stack Router
 Assuming you've already installed the stack router via
 ```bash
-npm install @react-motion-router/stack@^5.x
+npm install @react-motion-router/stack@^1.0.0
 ```
 We then need to instantiate our stack router passing it a screen to start with.
 ```jsx
@@ -35,7 +35,6 @@ function App() {
 
 export default App;
 ```
-<!-- Copy and Paste Me -->
 <!-- Copy and Paste Me -->
 <div class="glitch-embed-wrap" style={{ height: '420px', width: '100%' }}>
   <iframe
